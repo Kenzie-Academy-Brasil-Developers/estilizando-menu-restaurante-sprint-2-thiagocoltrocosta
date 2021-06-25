@@ -26,9 +26,10 @@ dt{
     font-size: 20px;
 }
 /* Show the price of each item in a large font, in the color named 'firebrick' */
-.price{
+.price {
     font-size: large;
     color: firebrick;
+    order: 2; padding-left: 10px;
 }
 /* Draw a 2px dashed rosybrown border around the address/footer */
 footer {
@@ -49,6 +50,6 @@ dd {margin: 0 0 12px 0; display: flex;}
 
 .details {order: 1;}
 
-.price {order: 2; padding-left: 10px;}
+
 
 address {padding: 10px;}
